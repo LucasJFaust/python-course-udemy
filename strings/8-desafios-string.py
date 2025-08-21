@@ -1,6 +1,9 @@
-
+"""
 # 01 -Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
-
+"""
+# tem_f = float(input("Digite a temperatura em graus Fahrenheit: "))
+# tem_c = (tem_f - 32) * 5 / 9
+# print(f"A temperatura em graus Celsius é: {tem_c:.2f}°C")
 """
 02 - Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 
@@ -10,20 +13,23 @@ a soma do triplo do primeiro com o terceiro.
 
 o terceiro elevado ao cubo.
 """
+# n_1 = int(input("Digite o primeiro número inteiro: "))
+# n_2 = int(input("Digite o segundo número inteiro: "))
+# n_3 = float(input("Digite um número real: "))
+# produto = (2 * n_1) * (n_2 / 2)
+# soma = (3 * n_1) + n_3
+# cubo = n_3 ** 3
 
+# print(f"O produto do dobro do primeiro com metade do segundo é: {produto}")
+# print(f"A soma do triplo do primeiro com o terceiro é: {soma}")
+# print(f"O terceiro elevado ao cubo é: {cubo:.2f}")
 """
 03 - Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal,
 usando a seguinte fórmula: (72.7*altura) - 58
 """
-
-"""
-04 - Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal,
-utilizando as seguintes fórmulas:
-
-Para homens: (72.7*h) - 58
-
-Para mulheres: (62.1*h) - 44.7
-"""
+# altura = float(input("Digite a altura da pessoa em metros: "))
+# peso_ideal = (72.7 * altura) - 58
+# print(f"O peso ideal para uma altura de {altura:.2f} metros é: {peso_ideal:.2f} kg")
 
 """
 05 - João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho.
@@ -33,6 +39,15 @@ que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variá
 além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as
 mensagens adequadas.
 """
+# limite = 50
+# peso_de_peixes = float(input("Digite o peso de peixes em quilos: "))
+# if peso_de_peixes > limite:
+#     excesso = peso_de_peixes - limite
+#     multa = excesso * 4.00
+#     print(f"João pescou {peso_de_peixes:.2f} kg, que excede o limite de {limite} kg")
+#     print(f"Logo, ele deve pagar uma multa de R$ {multa:.2f} por {excesso:.2f} kg excedentes.")
+# else:
+#     print(f"João pescou {peso_de_peixes:.2f} kg, que está dentro do limite de {limite} kg. Não há multa a pagar.")
 
 """
 06 - Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
