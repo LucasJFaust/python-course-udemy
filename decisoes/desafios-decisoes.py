@@ -25,16 +25,15 @@ por Km rodado para clientes participantes do programa de fidelidade.
 se ele ainda vai se alistar ao serviço militar, se é a hora exata de se alistar ou se já passou
 do tempo do alistamento. Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 """
-from datetime import datetime
+# from datetime import datetime
 
-ano_de_nascimento = int(input("Digite o ano de nascimento: "))
-ano_atual = datetime.now().year
-idade = ano_atual - ano_de_nascimento
-tempo_para_alistamento = 18 - idade
-if idade < 18:
-    print(f"Ainda faltam {tempo_para_alistamento} anos para o alistamento.")
-elif idade == 18:
-    print("Está na hora exata de se alistar.")
-else:
-    print(f"Já passou {abs(tempo_para_alistamento)} anos do prazo de alistamento.")
-
+# ano_de_nascimento = int(input("Digite o ano de nascimento: "))
+# ano_atual = datetime.now().year
+# idade = ano_atual - ano_de_nascimento
+# tempo_para_alistamento = 18 - idade
+# if idade < 18:
+#     print(f"Ainda faltam {tempo_para_alistamento} anos para o alistamento.")
+# elif idade == 18:
+#     print("Está na hora exata de se alistar.")
+# else:
+#     print(f"Já passou {abs(tempo_para_alistamento)} anos do prazo de alistamento.")
